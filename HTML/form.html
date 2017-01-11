@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Practice</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<div>
+		<label for="firstName">First Name:</label>
+		<input name="firstName" id="firstName" type="text" required>
+		<label for="lastName">Last Name:</label>
+		<input name="lastName" id="lastName" type="text" required>
+	</div>
+	<div>
+		<label for="male">Male</label>
+		<input id="male" name="gender" type="radio" value="Male">
+		<label for="female">Female</label>
+		<input id="female" name="gender" type="radio" value="Female">
+		<label for="other">Other</label>
+		<input id="other" name="gender" type="radio" value="Other">
+	</div>
+	<div>
+		<label for="email">Email</label>
+		<input name="email" type="email" placeholder="email@gmail.com" required>
+		<label for="password">Password</label>
+		<input name="password" type="password" pattern=".{5,10}" minlength="5" maxlength="10" required>
+	</div>
+	<div>
+	<label for="select-choice">
+	Birthday:
+		<select name="select-choice" id="select-choice" title="Month">
+			<option value="0" selected disabled>Month</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		<select name="birthday-day" id="day" title="Day">
+			<option value="0" selected disabled>Day</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		<select name="birthday-year" id="year" title="Year">
+			<option value="0" selected disabled>Year</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+	</label>
+	</div>
+	<div>
+	<label>I agree to the terms and conditions <input type="checkbox" required></label>
+	</div>
+	<button>Submit</button>
+</form>
+	
+</body>
+</html>
