@@ -10,6 +10,7 @@ body {
 
 .blog-container {
 	border: 15px solid #bdc3c7;
+	max-width: 700px;
 	width: 60%;
 	margin: 1.5% auto;
 	text-align: left;
@@ -19,11 +20,17 @@ body {
 .date {
 	color: #3498db;
 	text-transform: uppercase;
+	letter-spacing: 0.2rem;
 }
 
 .firstP {
 	border-left: 5px solid #bdc3c7;
 	padding-left: 10px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
 }
 
 hr {
