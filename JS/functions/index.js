@@ -29,7 +29,54 @@ let kebabToSnake = (str) => {
 	return newStr;
 }
 
-//higher order functions
+
+//array problem set
+
+//print reverse
+
+let printReverse = (array) => {
+	var reverse = [];
+	for(i = 0; array.length; i++) {
+		reverse.push(array.pop(i));
+	}
+	console.log(reverse);
+}
+
+// isUniform() true/false if same 
+
+let isUniform = (array) => {
+	for ( i = 1; array.length; i++) {
+		if(array[0] !== array[i]) {
+			return false;
+		}
+			
+	}
+	return true;
+}
+
+//sum array
+
+let sumArray = (array) => {
+	var total = 0;
+    array.forEach(function(num) {
+		total += num;
+	})
+	return total;
+}
+
+//findmax
+
+let max = (array) => {
+	var max = array[0];
+	for ( i = 0; i <= array.length; i++) {
+		if(max < array[i]) {
+			max = array[i];
+		}
+	}
+	return max;
+}
+
+
 
 
 
