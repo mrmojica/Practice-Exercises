@@ -76,6 +76,26 @@ let max = (array) => {
 	return max;
 }
 
+var button = document.getElementById("action");
+var isBlue = false;
+
+button.addEventListener("click", function(){
+	console.log("hit");
+
+	if(isBlue) {
+		document.body.style.background = "white";
+	} else {
+		document.body.style.background = "blue";
+	}
+
+	isBlue = !isBlue;
+
+
+
+});
+
+
+
 
 
 
