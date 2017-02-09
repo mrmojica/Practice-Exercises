@@ -30,3 +30,18 @@
 * app.set("view engine", "ejs"); // shortcut to remove .ejs text from the render
 
 * views/partials (can add header.ejs (containing the header of the normal HTML structure) // footer.ejs (containing the closing tags for HMTL structure) to include the partials add <% include partials/header %>  at top and <% include partials/footer %> at bottom of ejs file. check that style sheets are connected correctly /root directory/etc
+
+
+# RESTful Routing
+
+* REST - a mapping between HTTP routes and CRUD (Create/Read/Update/Delete or Destory)
+
+* CRUD - a parttern to help structure your routes
+
+# Associations
+
+* one:one, one:many, many:many relationships
+
+# Embedding Data
+
+# Referencing Data
